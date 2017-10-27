@@ -1,0 +1,46 @@
+#wrapper
+{
+ margin:auto;
+ width: 100%;
+ text-align: center; 
+ padding: inherit;
+ font-style:normal;
+ border-style: hidden;	
+ background-repeat: no-repeat;
+}
+
+.carousel { 
+z-index: -99;
+background-color: white;
+width: 100%;} /* keeps this behind all content */
+
+.carousel .item{
+	width: 100%;
+	height: auto;
+}
+
+.container{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+#searchSection
+{
+	position: fixed;
+	top: 7%;
+	width: 100%;
+	height: auto;
+	
+}
+
+.left .carousel-control
+{
+	background-color: white;
+}
+
+.right .carousel-control
+{
+	background-color: white;
+}
+
